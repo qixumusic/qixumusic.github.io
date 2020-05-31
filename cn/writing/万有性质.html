@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Qi Xu">
+	<title>万有性质 | 钢琴家徐起的个人网站</title>
+    <link rel="icon" href="/res/img/favicon.ico">
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<header class="header" id="header">
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <a class="logo" href="/">Qi Xu</a>
+  <div class="spacer"></div>
+  <ul class="menu">
+    <li><a href="/cn/about/">关于</a></li>
+    <li><a href="/cn/writing/">写作</a></li>
+    <li><a href="/cn/media/">影音</a></li>
+    <li><a href="/cn/contact/">联系</a></li>
+  </ul>
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+</header>
+	<article>
+		<section>
+			
+			<h1>万有性质</h1>
+			
+			<blockquote>
+  <p>万有性质如同黑洞，令所有路径强行改道。</p>
+</blockquote>
+
+<p>万有性质在范畴论里面不仅重要，而且理解了之后还很美（很多时候，重要跟美是相同的）。</p>
+
+<p>范畴论的核心是箭头（morphism）而不是对象（object），我们通过箭头也就是对象之间的关系来理解范畴的结构（一个极端的例子就是将一个群看做只有一个对象的范畴，<strong>群的元素成了一个个指向自己的箭头</strong>）。</p>
+
+<p>有一些范畴的性质往往需要<strong>提及这一范畴中的所有对象，而这一$\forall$量词就是“万有”的来源</strong>。</p>
+
+<blockquote>
+  <p>Properties … are called ‘universal’ because they state how the object being described relates to the entire universe in which it lives.</p>
+</blockquote>
+
+<p>我们可以用一个比喻来想：<strong>万有指的就是无处不在，绕不开，因此必须factor through万有物体</strong>（universal object）。因为物体是性质的载体（object is bearer of properties，不过这是哲学里争论很大的一个话题，暂且不谈），万有物体指的就是具有万有性质的物体。</p>
+
+<p>范畴论往往用箭头来画图，我们就顺着这种比喻来说：箭头是路径的话，那么万有性质指的就是，<strong>任何路径都必须经过万有物体，留下买路钱</strong>。</p>
+
+<blockquote>
+  <p>万有物体像是有着万有引力，吸引着所有的物体经过此处</p>
+</blockquote>
+
+<p>另外一个特性是：<strong>唯一性</strong>，即，<strong>经过万有物体的路径只有一条</strong>。这一唯一性解释了为什么我们往往说<strong>万有性质往往跟某种“最优解”有关</strong>（例如initial/terminal object等“边界条件”）。看到这里有没有觉得似曾相识？竟莫名想到群环模里面的UFD。</p>
+
+<p>做多了数学证明的人也可以感到似曾相识，我们有着一个典型的$\forall X \exists ! Y$句式（注意这个感叹号）。</p>
+
+<p>用故事来说：<strong>我们好好的一个图，非要扯出来一个特殊的对象，然后扯出来的第三方对象跟已有的图之间存在唯一的一个箭头</strong>。</p>
+
+<p>因此，万有性质有这么几个配方：</p>
+
+<ul>
+  <li>我们所要讨论的对象和morphism，因为不具体，所以往往是以“任何一个”开头。</li>
+  <li>
+    <p>一个特殊的第三方对象。</p>
+  </li>
+  <li><strong>第三方对象跟我们讨论的对象之间存在唯一的箭头</strong>，这个莫名其妙的第三方对象就是万有物体，因为万有，所以特殊，要单独拎出来。</li>
+</ul>
+
+<p>往往我们看到“莫名其妙的第三方对象”，“第三方对象跟已知对象之间唯一的箭头”这些要素，就可以意识到肯定某些地方藏着万有性质。</p>
+
+<p>我们举一个最经典的例子，乘积。</p>
+
+<p><img src="res/2019-10-14-01-36-02.png" alt="" /></p>
+
+<p>我们可以从Y的角度开始想，对于任何一个Y，我们有着自己连接$X_1$的箭头。</p>
+
+<p><img src="res/2019-10-14-01-45-20.png" alt="" /></p>
+
+<p>结果突然冒出来了一个“必经”的第三方</p>
+
+<p><img src="res/2019-10-14-03-28-59.png" alt="" /></p>
+
+<p>这其中：</p>
+
+<p><img src="res/2019-10-14-03-29-23.png" alt="" /></p>
+
+<p>这个冒出来的第三方就是万有物体，强行分解(factorize)路径。</p>
+
+<p>这种唯一的路径分解很像算数基本定理里面的质数分解：</p>
+
+<p><img src="res/2019-10-14-01-47-12.png" alt="" /></p>
+
+		</section>
+	</article>
+	<footer>
+  <div class="left">
+    <ul>
+      <li><a href="/">&copy; Qi Xu 2020</a></li>
+      <li><a href="/cn/about/">中文版</a></li>
+      <li><a href="/en/about/">English</a></li>
+    </ul>
+  </div>
+  <div class="spacer">
+  </div>
+  <div class="right">
+    <ul>
+      <li><a href="/cn/logistics/">网站信息</a></li>
+    </ul>
+  </div>
+</footer>
+	</div>
+	<script>
+		MathJax = {
+			tex: {
+				inlineMath: [['$', '$']],
+				displayMath: [['$$', '$$']]
+			}
+		};
+	</script>
+	<script src="/res/js/mathjax/tex-mml-chtml.js" id="MathJax-script" async></script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69802004-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>
