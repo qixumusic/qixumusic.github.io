@@ -1,1 +1,1 @@
-Sitemap: /~qx2126/sitemap.xml
+Sitemap: https://www.qixumusic.com/sitemap.xml

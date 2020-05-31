@@ -20,7 +20,7 @@ body {
   background-color: #333;
 }
 body {
-  background: url(/~qx2126/res/img/cover.jpg) no-repeat left center fixed;
+  background: url(/res/img/cover.jpg) no-repeat left center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
