@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="Qi Xu">
 	<title>Gallery | Official Website of Pianist Qi Xu</title>
-	<link href="/res/css/material.min.css" rel="stylesheet">
     <link rel="icon" href="/res/img/favicon.ico">
-	<link href="/res/css/main.css" rel="stylesheet">
 	<link rel="stylesheet" href="/style.css">
 </head>
 
-	<body>
-        <div class="container mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    		<header class="header" id="header">
+
+<body>
+	<header class="header" id="header">
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <a class="logo" href="/">Qi Xu</a>
   <div class="spacer"></div>
@@ -26,138 +24,27 @@
   </ul>
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 </header>
-    		<div class="mdl-layout__content">
-    			<style>
-    .mdl-layout__content {
-        z-index: 5;
-    }
-</style>
-<!-- Core CSS file -->
-<link rel="stylesheet" href="/res/css/photoswipe.css">
-
-<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
-     In the folder of skin CSS file there are also:
-     - .png and .svg icons sprite,
-     - preloader.gif (for browsers that do not support CSS animations) -->
+	<link rel="stylesheet" href="/res/css/photoswipe.css">
 <link rel="stylesheet" href="/res/css/photoswipe_default-skin.css">
 
-<!-- Core JS file -->
 <script src="/res/js/photoswipe.min.js"></script>
-
-<!-- UI JS file -->
 <script src="/res/js/photoswipe-ui-default.js"></script>
 
-<script>
-init();
-function init(){
-var x=new XMLHttpRequest();
-x.open('GET','https://api.flickr.com/services/rest/?method=flickr.photosets.getPhotos&api_key=abfe5ec76ca88cce01bc2f1489340caf&format=json&user_id=131771443@N02&photoset_id=72157650795545620',true)
-x.send();
-x.onload=function(){
-var x=eval(this.response);
-};
-};
-
-function jsonFlickrApi(rsp){
-	var photos=rsp.photoset.photo;
-	photosLength=photos.length;
-	for(var i=0;i<photos.length;i++){
-		var x=document.createElement("div");
-	x.className="mdl-card mdl-cell mdl-cell--4-col image-page";
-	x.innerHTML='<a class="thumbnail"><img class="img-responsive" alt=""></a>';
-	var img=x.querySelector("img");
-	img.src=getUrl(photos[i],"m");
-
-		img.onload=(function(x){return function(){
-		if(counter==photosLength-1){addClickListener();}
-		else{counter++;}};})(x);
-
-	document.querySelector(".row").appendChild(x);
-	}
-
-
-};
-
-function getUrl(info,quality){
-	//https://www.flickr.com/services/api/misc.urls.html
-	return "https://farm"+info.farm+".staticflickr.com/"+info.server+"/"+info.id+"_"+info.secret+"_"+quality+".jpg";
-};
-//These two (bad practice) global variables just toggle dimension check when all images finish loading.
-var counter=0;
-var photosLength;
-
-function addClickListener(){
-	var imgs=document.querySelector(".row").getElementsByTagName("img");
-	var openPhotoSwipe = function() {
-    var pswpElement = document.querySelectorAll('.pswp')[0];
-
-	String.prototype.replaceAt=function(index, character) {
-    return this.substr(0, index) + character + this.substr(index+character.length);
-}
-    // build items array
-    var items = [];
-	for(var i=0;i<imgs.length;i++){
-	console.log(imgs[i].src);
-		items.push({"src":imgs[i].src.replaceAt(imgs[i].src.indexOf(".jpg")-1,"b"),"w":imgs[i].width*4.26,"h":imgs[i].height*4.26});
-	}
-
-    // define options (if needed)
-    var options = {
-             // history & focus options are disabled on CodePen
-        history: false,
-        focus: false,
-
-        showAnimationDuration: 0,
-        hideAnimationDuration: 0
-
-    };
-
-    gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-	for(var i=0;i<imgs.length;i++){
-		imgs[i].onclick=(function(i,gallery){return function(){
-
-		gallery.init();
-		gallery.goTo(i);
-
-			addClickListener(imgs[i].parentNode);
-
-		};})(i,gallery);
-
-	}
-
-
-};
-openPhotoSwipe();
-
-
-};
-</script>
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe.
-         It's a separate element as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
-    <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides.
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
         <div class="pswp__container">
             <div class="pswp__item"></div>
             <div class="pswp__item"></div>
             <div class="pswp__item"></div>
         </div>
 
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
         <div class="pswp__ui pswp__ui--hidden">
 
             <div class="pswp__top-bar">
 
-                <!--  Controls are self-explanatory. Order can be changed. -->
 
                 <div class="pswp__counter"></div>
 
@@ -169,13 +56,11 @@ openPhotoSwipe();
 
                 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
                 <div class="pswp__preloader">
                     <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -200,31 +85,119 @@ openPhotoSwipe();
 
 </div>
 
-<div class="row mdl-grid">
+<style>
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .gallery-container .item {
+        padding: 30px 30px;
+        text-align: center;
+        min-width: 25vw;
+        max-width: 300px;
+    }
 
+    .gallery-container img {
+        max-height: 300px;
+        object-fit: contain;
+    }
 
+    .gallery-container a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .gallery-container .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+</style>
+<div class="gallery-container">
+    <div class="item"><img loading="lazy" src="/res/img/gallery/thumb_img_0203_49340361273_o.jpg" data-src="/res/img/gallery/img_0203_49340361273_o.jpg" data-width="6240" data-height="4160"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_psfix_20170414_022824_34025884125_o.jpg" data-src="/res/img/gallery/psfix_20170414_022824_34025884125_o.jpg" data-width="1782" data-height="1782"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_r7a9597_18885985055_o.jpg" data-src="/res/img/gallery/r7a9597_18885985055_o.jpg" data-width="3960" data-height="2640"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_qi_xu_20150422_452_17269351905_o.jpg" data-src="/res/img/gallery/qi_xu_20150422_452_17269351905_o.jpg" data-width="1500" data-height="1000"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_40688753824_7be867173a_o.jpg" data-src="/res/img/gallery/40688753824_7be867173a_o.jpg" data-width="3264" data-height="1632"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_r7a9566_18885990745_o.jpg" data-src="/res/img/gallery/r7a9566_18885990745_o.jpg" data-width="3960" data-height="2640"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_image_26898955290_o.jpg" data-src="/res/img/gallery/image_26898955290_o.jpg" data-width="4088" data-height="2557"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_r7a9585_18885988125_o.jpg" data-src="/res/img/gallery/r7a9585_18885988125_o.jpg" data-width="3960" data-height="2640"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_40638447754_0b8e2b121f_o.jpg" data-src="/res/img/gallery/40638447754_0b8e2b121f_o.jpg" data-width="1632" data-height="3264"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_r7a9481_18888823981_o.jpg" data-src="/res/img/gallery/r7a9481_18888823981_o.jpg" data-width="3960" data-height="2640"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_cover_16737328525_o.jpg" data-src="/res/img/gallery/cover_16737328525_o.jpg" data-width="3089" data-height="3089"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_img_4686-edited_16736149361_o.jpg" data-src="/res/img/gallery/img_4686-edited_16736149361_o.jpg" data-width="3121" data-height="4601"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_e18746f7b83a14b5626b106e3258f5c7jpg_28328678313_o.jpg" data-src="/res/img/gallery/e18746f7b83a14b5626b106e3258f5c7jpg_28328678313_o.jpg" data-width="3264" data-height="4896"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_img_20180423_191115_39925495800_o.jpg" data-src="/res/img/gallery/img_20180423_191115_39925495800_o.jpg" data-width="3264" data-height="1632"></div>
 
 </div>
+<script>
+    addClickListener()
+    function addClickListener() {
+        var imgs = document.querySelectorAll(".gallery-container img");
+        var openPhotoSwipe = function () {
+            var pswpElement = document.querySelectorAll('.pswp')[0];
 
-                <footer class="mdl-mini-footer footer">
-  <div class="mdl-mini-footer__left-section">
-    <ul class="mdl-mini-footer__link-list">
+            String.prototype.replaceAt = function (index, character) {
+                return this.substr(0, index) + character + this.substr(index + character.length);
+            }
+            // build items array
+            var items = [];
+            for (var i = 0; i < imgs.length; i++) {
+                items.push({ "src": imgs[i].getAttribute('data-src'), "w": imgs[i].getAttribute('data-width'), "h": imgs[i].getAttribute('data-height') });
+            }
+
+            // define options (if needed)
+            var options = {
+                // history & focus options are disabled on CodePen
+                history: false,
+                focus: false,
+
+                showAnimationDuration: 0,
+                hideAnimationDuration: 0
+
+            };
+
+            gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+            for (var i = 0; i < imgs.length; i++) {
+                imgs[i].onclick = (function (i, gallery) {
+                    return function () {
+
+                        gallery.init();
+                        gallery.goTo(i);
+
+                        addClickListener(imgs[i].parentNode);
+
+                    };
+                })(i, gallery);
+
+            }
+
+
+        };
+        openPhotoSwipe();
+
+
+    };
+</script>
+	<footer>
+  <div class="left">
+    <ul>
       <li><a href="/">&copy; Qi Xu 2020</a></li>
       <li><a href="/cn/about/">中文版</a></li>
       <li><a href="/en/about/">English</a></li>
     </ul>
   </div>
-  <div class="mdl-mini-footer__right-section">
-    <ul class="mdl-mini-footer__link-list">
+  <div class="spacer">
+  </div>
+  <div class="right">
+    <ul>
       <li><a href="/en/logistics/">About this website</a></li>
     </ul>
   </div>
 </footer>
-
-    		</div> 
-        </div>
-        <script>
+	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -235,5 +208,6 @@ openPhotoSwipe();
 
 </script>
 
-	</body>
+</body>
+
 </html>

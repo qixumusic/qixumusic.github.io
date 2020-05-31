@@ -25,51 +25,27 @@
   </ul>
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
 </header>
-	<style>
-    .mdl-layout__content {
-        z-index: 5;
-    }
-</style>
-<!-- Core CSS file -->
-<link rel="stylesheet" href="/res/css/photoswipe.css">
-
-<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
-     In the folder of skin CSS file there are also:
-     - .png and .svg icons sprite,
-     - preloader.gif (for browsers that do not support CSS animations) -->
+	<link rel="stylesheet" href="/res/css/photoswipe.css">
 <link rel="stylesheet" href="/res/css/photoswipe_default-skin.css">
 
-<!-- Core JS file -->
 <script src="/res/js/photoswipe.min.js"></script>
-
-<!-- UI JS file -->
 <script src="/res/js/photoswipe-ui-default.js"></script>
 
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe.
-         It's a separate element as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
-    <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides.
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
         <div class="pswp__container">
             <div class="pswp__item"></div>
             <div class="pswp__item"></div>
             <div class="pswp__item"></div>
         </div>
 
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
         <div class="pswp__ui pswp__ui--hidden">
 
             <div class="pswp__top-bar">
 
-                <!--  Controls are self-explanatory. Order can be changed. -->
 
                 <div class="pswp__counter"></div>
 
@@ -81,8 +57,6 @@
 
                 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
                 <div class="pswp__preloader">
                     <div class="pswp__preloader__icn">
                         <div class="pswp__preloader__cut">
@@ -143,20 +117,21 @@
     }
 </style>
 <div class="gallery-container">
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_img_0203_49340361273_o.jpg" data-src="img_0203_49340361273_o.jpg" data-width="6240" data-height="4160"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_psfix_20170414_022824_34025884125_o.jpg" data-src="psfix_20170414_022824_34025884125_o.jpg" data-width="1782" data-height="1782"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_r7a9597_18885985055_o.jpg" data-src="r7a9597_18885985055_o.jpg" data-width="3960" data-height="2640"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_qi_xu_20150422_452_17269351905_o.jpg" data-src="qi_xu_20150422_452_17269351905_o.jpg" data-width="1500" data-height="1000"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_40688753824_7be867173a_o.jpg" data-src="40688753824_7be867173a_o.jpg" data-width="3264" data-height="1632"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_r7a9566_18885990745_o.jpg" data-src="r7a9566_18885990745_o.jpg" data-width="3960" data-height="2640"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_image_26898955290_o.jpg" data-src="image_26898955290_o.jpg" data-width="4088" data-height="2557"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_r7a9585_18885988125_o.jpg" data-src="r7a9585_18885988125_o.jpg" data-width="3960" data-height="2640"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_40638447754_0b8e2b121f_o.jpg" data-src="40638447754_0b8e2b121f_o.jpg" data-width="1632" data-height="3264"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_r7a9481_18888823981_o.jpg" data-src="r7a9481_18888823981_o.jpg" data-width="3960" data-height="2640"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_cover_16737328525_o.jpg" data-src="cover_16737328525_o.jpg" data-width="3089" data-height="3089"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_img_4686-edited_16736149361_o.jpg" data-src="img_4686-edited_16736149361_o.jpg" data-width="3121" data-height="4601"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_e18746f7b83a14b5626b106e3258f5c7jpg_28328678313_o.jpg" data-src="e18746f7b83a14b5626b106e3258f5c7jpg_28328678313_o.jpg" data-width="3264" data-height="4896"></div>
-    <div class="item"><img loading="lazy" title="点击查看大图" src="thumb_img_20180423_191115_39925495800_o.jpg" data-src="img_20180423_191115_39925495800_o.jpg" data-width="3264" data-height="1632"></div>
+    <div class="item"><img loading="lazy" src="/res/img/gallery/thumb_img_0203_49340361273_o.jpg" data-src="/res/img/gallery/img_0203_49340361273_o.jpg" data-width="6240" data-height="4160"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_psfix_20170414_022824_34025884125_o.jpg" data-src="/res/img/gallery/psfix_20170414_022824_34025884125_o.jpg" data-width="1782" data-height="1782"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_r7a9597_18885985055_o.jpg" data-src="/res/img/gallery/r7a9597_18885985055_o.jpg" data-width="3960" data-height="2640"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_qi_xu_20150422_452_17269351905_o.jpg" data-src="/res/img/gallery/qi_xu_20150422_452_17269351905_o.jpg" data-width="1500" data-height="1000"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_40688753824_7be867173a_o.jpg" data-src="/res/img/gallery/40688753824_7be867173a_o.jpg" data-width="3264" data-height="1632"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_r7a9566_18885990745_o.jpg" data-src="/res/img/gallery/r7a9566_18885990745_o.jpg" data-width="3960" data-height="2640"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_image_26898955290_o.jpg" data-src="/res/img/gallery/image_26898955290_o.jpg" data-width="4088" data-height="2557"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_r7a9585_18885988125_o.jpg" data-src="/res/img/gallery/r7a9585_18885988125_o.jpg" data-width="3960" data-height="2640"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_40638447754_0b8e2b121f_o.jpg" data-src="/res/img/gallery/40638447754_0b8e2b121f_o.jpg" data-width="1632" data-height="3264"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_r7a9481_18888823981_o.jpg" data-src="/res/img/gallery/r7a9481_18888823981_o.jpg" data-width="3960" data-height="2640"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_cover_16737328525_o.jpg" data-src="/res/img/gallery/cover_16737328525_o.jpg" data-width="3089" data-height="3089"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_img_4686-edited_16736149361_o.jpg" data-src="/res/img/gallery/img_4686-edited_16736149361_o.jpg" data-width="3121" data-height="4601"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_e18746f7b83a14b5626b106e3258f5c7jpg_28328678313_o.jpg" data-src="/res/img/gallery/e18746f7b83a14b5626b106e3258f5c7jpg_28328678313_o.jpg" data-width="3264" data-height="4896"></div>
+<div class="item"><img loading="lazy" src="/res/img/gallery/thumb_img_20180423_191115_39925495800_o.jpg" data-src="/res/img/gallery/img_20180423_191115_39925495800_o.jpg" data-width="3264" data-height="1632"></div>
+
 </div>
 <script>
     addClickListener()
