@@ -49,12 +49,12 @@ urlsToCache.push("/cn/writing/%E9%BB%84%E9%87%91%E5%88%86%E5%89%B2.html");
 urlsToCache.push("/sitemap.xml");
 urlsToCache.push("/robots.txt");
 
-//workaround: remove .htlm extension
 urlsToCache.filter((x) => x.slice(-5) == '.html').map((x) => urlsToCache.push(x.slice(0,-5)))
 
 var CACHE_NAME = 'offline-support';
 
 self.addEventListener('install', function(event) {
+  self.skipWaiting();
   event.waitUntil(caches.open(CACHE_NAME).then(function(cache) {
     return urlsToCache.map((url) => cache.add(url).catch((err) => console.log(err)))
   }));
@@ -64,10 +64,18 @@ self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.open(CACHE_NAME).then(function(cache) {
       return cache.match(event.request).then(function (response) {
-        return response || fetch(event.request).then(function(response) {
-          cache.put(event.request, response.clone());
-          return response;
-        });
+        var req = fetch(event.request).then(function(response) {
+            console.log(`cache UPDATE for ${event.request.url}`)
+            cache.put(event.request, response.clone());
+            return response;
+          });
+        if (response){
+            console.log(`cache HIT for ${event.request.url}`)
+            return response
+        }else{
+            console.log(`cache MISS for ${event.request.url}`)
+            return req
+        }   
       });
     })
   );
