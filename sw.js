@@ -1,4 +1,5 @@
 var urlsToCache = [
+    '/style.css',
     '/res/img/portrait.jpg',
     '/res/img/cover.jpg'
 ];
