@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
-	<meta name="author" content="Qi Xu">
+	<meta name="author" content="徐起">
 	<title>网站信息 | 钢琴家徐起的个人网站</title>
     <link rel="icon" href="/res/img/favicon.ico">
 	<link rel="stylesheet" href="/style.css">
@@ -32,8 +32,8 @@
 			<h2 id="网站数据">网站数据</h2>
 
 <ul>
-  <li>版本号: 091a376</li>
-  <li>构建于: 2020-06-08T18:57:57+00:00</li>
+  <li>版本号: c6f6ac1</li>
+  <li>构建于: 2020-06-09T12:14:10+00:00</li>
 </ul>
 
 <h2 id="部署">部署</h2>
@@ -111,6 +111,13 @@
 	</script>
 	<script src="/res/js/mathjax/tex-mml-chtml.js" id="MathJax-script" async></script>
 	<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("/sw.js").then((registration) => {
+      console.log(`Service worker successfully registered at ${registration.scope}`)
+    })
+  }
+</script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
