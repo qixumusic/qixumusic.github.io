@@ -64,10 +64,12 @@ self.addEventListener('install', function(event) {
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.open(CACHE_NAME).then(function(cache) {
-      return cache.match(event.request).then(function (response) {
+      return cache.match(event.request,{ignoreVary: true}).then(function (response) {
         var req = fetch(event.request).then(function(response) {
-            console.log(`cache UPDATE for ${event.request.url}`)
-            cache.put(event.request, response.clone());
+            if(!(new URL(event.request.url)).search){
+              console.log(`cache UPDATE for ${event.request.url}`)
+              cache.put(event.request, response.clone());
+            } 
             return response;
           });
         if (response){
