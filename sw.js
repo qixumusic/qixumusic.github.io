@@ -10,6 +10,7 @@ urlsToCache.push("/cn/writing/2020-04-06_%E6%9C%AB%E6%97%A5%E8%88%B9%E7%A5%A8.ht
 urlsToCache.push("/cn/writing/2020-05-23_%E5%84%BF%E7%AB%A5%E8%8A%82%E7%89%B9%E8%BE%91.html");
 urlsToCache.push("/cn/writing/2020-05-24_%E5%B7%B4%E8%B5%AB%E7%9A%84G%E5%A4%A7%E8%B0%83%E5%B0%8F%E6%AD%A5%E8%88%9E%E6%9B%B2.html");
 urlsToCache.push("/cn/writing/2020-06-03-%E5%86%B0%E5%86%B7%E6%AD%A3%E8%83%BD%E9%87%8F.html");
+urlsToCache.push("/cn/writing/2021-05-11_%E6%9C%9D%E9%9F%B3%E8%AE%BF%E8%B0%88.html");
 urlsToCache.push("/404.html");
 urlsToCache.push("/en/about/");
 urlsToCache.push("/en/media/video/");
