@@ -84,3 +84,12 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
+
+self.addEventListener('message', function(event) {
+  if (event.data) { 
+    let data = event.data;
+    caches.open(CACHE_NAME).then(function (cache) {
+        cache.add(data)
+    })
+  }
+});
