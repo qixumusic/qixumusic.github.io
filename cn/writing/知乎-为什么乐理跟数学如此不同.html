@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="徐起">
+	<link rel="manifest" href="/manifest.json">
+	<title> | 钢琴家徐起的个人网站</title>
+    <link rel="icon" href="/res/img/favicon.ico">
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<header class="header" id="header">
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <a class="logo" href="/">Qi Xu</a>
+  <div class="spacer"></div>
+  <ul class="menu">
+    <li><a href="/cn/about/">关于</a></li>
+    <li><a href="/cn/writing/">写作</a></li>
+    <li><a href="/cn/media/">影音</a></li>
+    <li><a href="/cn/contact/">联系</a></li>
+  </ul>
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+</header>
+	<article>
+		<section>
+			
+			<p>计算机领域有一个词叫The ladder of abstraction，直译过来就是“封装天梯”。</p>
+
+<p>随着一个学科的发展，我们要在前人的成果上继续进步就必须封装已有的成果，并且根据情况分裂出子学科。否则我们面临的就是，我们没法在一个人有限的寿命里学到一个学科的前沿，更别说做出贡献。这就是为什么学科越成熟，全才人就越少，因为学科早期一个人可以做的很多很广，但是之后难度越来越大，不得不分裂出子学科并且用人海战术来组团搞研究。</p>
+
+<p>乐理也并不例外：早期的乐理就是数学。中世纪的学科分类是这么分的：</p>
+
+<ul>
+  <li>四大件(Quadrivium)
+    <ul>
+      <li>算数</li>
+      <li>几何</li>
+      <li>音乐</li>
+      <li>天文</li>
+    </ul>
+  </li>
+  <li>三大件(Trivium)
+    <ul>
+      <li>语法</li>
+      <li>逻辑</li>
+      <li>修辞</li>
+    </ul>
+  </li>
+</ul>
+
+<p>后来随着音乐理论的发展，我们自然而然遇到了乐理这一领域的分裂。乐理分裂成了：</p>
+
+<ul>
+  <li>音乐家所关心的音乐</li>
+  <li>科学家所关心的声音</li>
+</ul>
+
+<p>因此，我们有了两个学科：</p>
+
+<ul>
+  <li>音乐理论(music theory)</li>
+  <li>声学(acoustics)</li>
+</ul>
+
+<p>从此艺术跟科学彻底分道扬镳，互不干扰。</p>
+
+<p>其实这个现象太过于常见，比如说我们可以问：</p>
+
+<ul>
+  <li>为什么绘画跟光学如此不同</li>
+  <li>为什么下棋跟材料学如此不同</li>
+  <li>为什么演讲跟生物学如此不同</li>
+  <li>为什么web编程跟电子工程如此不同</li>
+</ul>
+
+<p>上面这四个问题听上去如此荒唐，反而印证了<strong>数学跟音乐正因为联系太过于紧密，所以即使分家之后我们还往往期待两者的联系</strong></p>
+
+		</section>
+	</article>
+	<footer>
+  <div class="left">
+    <ul>
+      <li><a href="/">&copy; Qi Xu 2021</a></li>
+      <li><a href="/cn/about/">中文版</a></li>
+      <li><a href="/en/about/">English</a></li>
+    </ul>
+  </div>
+  <div class="spacer">
+  </div>
+  <div class="right">
+    <ul>
+      <li><a href="/cn/logistics/">网站信息</a></li>
+    </ul>
+  </div>
+</footer>
+	</div>
+	<script>
+		MathJax = {
+			tex: {
+				inlineMath: [['$', '$']],
+				displayMath: [['$$', '$$']]
+			}
+		};
+	</script>
+	<script src="/res/js/mathjax/tex-mml-chtml.js" id="MathJax-script" async></script>
+	<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register("/sw.js").then((registration) => {
+      console.log(`Service worker successfully registered at ${registration.scope}`)
+    })
+  }
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69802004-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+
+</html>
