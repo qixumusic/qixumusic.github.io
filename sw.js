@@ -31,6 +31,7 @@ urlsToCache.push("/en/logistics/");
 urlsToCache.push("/manifest.json");
 urlsToCache.push("/sw.js");
 urlsToCache.push("/cn/writing/%E4%B8%87%E6%9C%89%E6%80%A7%E8%B4%A8.html");
+urlsToCache.push("/cn/writing/%E4%B8%8A%E5%A4%A7%E5%AD%A6%E5%86%8D%E5%AD%A6%E9%92%A2%E7%90%B4%E6%99%9A%E4%B8%8D%E6%99%9A.html");
 urlsToCache.push("/cn/writing/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%84%9F%E8%A7%89%E5%9C%A8%E9%95%BF%E5%A4%A7%E4%BB%A5%E5%90%8E%E7%96%B2%E5%8A%B3%E6%84%9F%E8%B6%8A%E6%9D%A5%E8%B6%8A%E9%9A%BE%E4%BB%A5%E9%80%9A%E8%BF%87%E7%9D%A1%E4%B8%80%E8%A7%89%E6%B6%88%E9%99%A4.html");
 urlsToCache.push("/cn/writing/%E4%BA%B2%E5%AF%86%E5%85%B3%E7%B3%BB%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%8F%8D%E9%A6%88.html");
 urlsToCache.push("/cn/writing/%E5%A4%B1%E6%81%8B%E5%90%8E%E6%AF%8F%E5%A4%A9%E5%9D%9A%E6%8C%81%E5%81%A5%E8%BA%AB%E7%9C%8B%E4%B9%A6%E5%AD%A6%E4%B9%A0%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BE%9D%E7%84%B6%E6%B2%A1%E6%9C%89%E5%BF%AB%E4%B9%90.html");
