@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./_generate_image_listing > _listing.html

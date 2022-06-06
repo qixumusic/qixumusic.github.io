@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "path": "assets/md/cn/bio_full.md",
+      "href": "page/cn/bio_full",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/cn/bio_short.md",
+      "href": "page/cn/bio_short",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/cn/contact.md",
+      "href": "page/cn/contact",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/cn/intro.md",
+      "href": "page/cn/intro",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/cn/site.md",
+      "href": "page/cn/site",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/en/bio_full.md",
+      "href": "page/en/bio_full",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/en/bio_short.md",
+      "href": "page/en/bio_short",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/en/contact.md",
+      "href": "page/en/contact",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/en/intro.md",
+      "href": "page/en/intro",
+      "multilingual": true
+    },
+    {
+      "path": "assets/md/en/site.md",
+      "href": "page/en/site",
+      "multilingual": true
+    }
+  ]
+}
