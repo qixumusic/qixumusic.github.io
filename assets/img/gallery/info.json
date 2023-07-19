@@ -292,6 +292,16 @@
       }
     },
     {
+      "raw_html": "<div class=\"item\"><a href=\"assets/img/gallery/original/L1020389-01.jpg\" data-pswp-src=\"assets/img/gallery/original/L1020389-01.jpg\" data-pswp-width=\"4914\" data-pswp-height=\"3277\"><img loading=\"lazy\" src=\"assets/img/gallery/thumbnail/thumb_L1020389-01.jpg\"></a></div>",
+      "thumbnail_url": "assets/img/gallery/thumbnail/thumb_L1020389-01.jpg",
+      "original_url": "assets/img/gallery/original/L1020389-01.jpg",
+      "dimension": {
+        "height": 3277,
+        "width": 4914,
+        "type": "jpg"
+      }
+    },
+    {
       "raw_html": "<div class=\"item\"><a href=\"assets/img/gallery/original/M14A0599.jpg\" data-pswp-src=\"assets/img/gallery/original/M14A0599.jpg\" data-pswp-width=\"5760\" data-pswp-height=\"3840\"><img loading=\"lazy\" src=\"assets/img/gallery/thumbnail/thumb_M14A0599.jpg\"></a></div>",
       "thumbnail_url": "assets/img/gallery/thumbnail/thumb_M14A0599.jpg",
       "original_url": "assets/img/gallery/original/M14A0599.jpg",
