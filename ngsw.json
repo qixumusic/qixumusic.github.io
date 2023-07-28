@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1689779018597,
+  "timestamp": 1690536512265,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "/679.c023f085acd26c69.js",
         "/favicon.ico",
         "/index.html",
-        "/main.0c30dbb6bc747921.js",
+        "/main.3fb49db72b975f92.js",
         "/manifest.webmanifest",
         "/polyfills.349656a72c24c6cc.js",
         "/runtime.87421f0f853adffd.js",
@@ -324,8 +324,8 @@
     "/assets/img/gallery/thumbnail/thumb_r7a9597_18885985055_o.jpg": "2fc81ad8adca5e8c96f7d170b07ad17e2465af67",
     "/assets/img/icon.svg": "fde7db25891719428c0b68940dd20398aad4c08e",
     "/assets/img/portrait.jpg": "3c93319f5291091a7f6ed29b7551849f7761be16",
-    "/assets/md/cn/bio_full.md": "1dcae65bd374aee3e090eae15a0bc1df9f2833b8",
-    "/assets/md/cn/bio_short.md": "e71166fc10c6c71cdc8a2887f57472f493153ce8",
+    "/assets/md/cn/bio_full.md": "cdc787ca1885b250d639a92232321de6e369eacf",
+    "/assets/md/cn/bio_short.md": "d36b7d07fb9bf0a7add40a74129dfd8fa1a34f8d",
     "/assets/md/cn/contact.md": "e7d273055764d3af869d3f206bb1910935a4a288",
     "/assets/md/cn/intro.md": "f23dba9d1456ec9b34dc4079af3f07f309c3ab2f",
     "/assets/md/cn/site.md": "1398402ac6d80369e781f6decb3e4d4db738fbbb",
@@ -336,8 +336,8 @@
     "/assets/md/en/site.md": "714e22317e720c192fa01e3f2af2b21f8b1792e8",
     "/assets/md/info.json": "16c85617c1c4fba328f7ac9a8044292858df4638",
     "/favicon.ico": "afb20598124f18d4ccc3aa47cff8629c5a3d1791",
-    "/index.html": "e3351d6daa6545c363910455643023ee531c3239",
-    "/main.0c30dbb6bc747921.js": "5d236a96778c1b8b8d988eece83fcecaba7b0269",
+    "/index.html": "cc8b873eaf82b7d395fab6825bfd59a59820029c",
+    "/main.3fb49db72b975f92.js": "0a449a9209c6b2f0bf6299204a85e6c2d228bd31",
     "/manifest.webmanifest": "9fff0e0b4bf18692911fc94981f2c01f4e2e7985",
     "/material-icons.67c0fe845b7c428b.woff2": "12ec79ca327978ed31b4a661fd0f6a89721333a9",
     "/material-icons.a4c684723c7b6665.woff": "a1840fdc9b67afc952f064ab6e2b05188ba1c78a",
