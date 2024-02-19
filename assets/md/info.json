@@ -1,6 +1,11 @@
 {
   "data": [
     {
+      "path": "assets/md/cn/bio_extended.md",
+      "href": "page/cn/bio_extended",
+      "multilingual": false
+    },
+    {
       "path": "assets/md/cn/bio_full.md",
       "href": "page/cn/bio_full",
       "multilingual": true
