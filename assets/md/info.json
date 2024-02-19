@@ -25,12 +25,6 @@
       "multilingual": true
     },
     {
-      "title": "cv",
-      "path": "assets/md/cn/cv.md",
-      "href": "page/cn/cv",
-      "multilingual": false
-    },
-    {
       "title": "intro",
       "path": "assets/md/cn/intro.md",
       "href": "page/cn/intro",

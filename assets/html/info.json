@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "title": "履历",
-      "path": "assets/html/cn/履历.html",
-      "href": "page/cn/履历",
-      "multilingual": false
+      "title": "cv",
+      "path": "assets/html/cn/cv.html",
+      "href": "page/cn/cv",
+      "multilingual": true
     },
     {
       "title": "cv",
       "path": "assets/html/en/cv.html",
       "href": "page/en/cv",
-      "multilingual": false
+      "multilingual": true
     }
   ]
 }
