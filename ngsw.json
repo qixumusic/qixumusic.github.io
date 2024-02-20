@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1708420056610,
+  "timestamp": 1708420772736,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "/679.c023f085acd26c69.js",
         "/favicon.ico",
         "/index.html",
-        "/main.3d3c394e381feade.js",
+        "/main.eb1fecbeb3bb65c8.js",
         "/manifest.webmanifest",
         "/polyfills.349656a72c24c6cc.js",
         "/runtime.87421f0f853adffd.js",
@@ -360,8 +360,8 @@
     "/assets/pdf/en/bio_short.pdf": "68d876380fe9722494c587aca974d2a9dbfac9bb",
     "/assets/pdf/en/cv.pdf": "80540cf05a8951bc0a19370b8755aaf06fd57238",
     "/favicon.ico": "afb20598124f18d4ccc3aa47cff8629c5a3d1791",
-    "/index.html": "82fd210926bae33339947dc3543830274cc144e8",
-    "/main.3d3c394e381feade.js": "22e4e460f52126970795667a05edb77e2c963808",
+    "/index.html": "632f92ce8f37e30c7cc9b5f2de393d1823bdaa6c",
+    "/main.eb1fecbeb3bb65c8.js": "609a6e1b0475e6ab9c7dda4a4a7b2f05b0854fa7",
     "/manifest.webmanifest": "9fff0e0b4bf18692911fc94981f2c01f4e2e7985",
     "/material-icons.67c0fe845b7c428b.woff2": "12ec79ca327978ed31b4a661fd0f6a89721333a9",
     "/material-icons.a4c684723c7b6665.woff": "a1840fdc9b67afc952f064ab6e2b05188ba1c78a",
