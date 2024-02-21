@@ -43,6 +43,12 @@
       "multilingual": true
     },
     {
+      "title": "writing",
+      "path": "assets/md/cn/writing.md",
+      "href": "page/cn/writing",
+      "multilingual": true
+    },
+    {
       "title": "bio_full",
       "path": "assets/md/en/bio_full.md",
       "href": "page/en/bio_full",
@@ -76,6 +82,12 @@
       "title": "titles",
       "path": "assets/md/en/titles.md",
       "href": "page/en/titles",
+      "multilingual": true
+    },
+    {
+      "title": "writing",
+      "path": "assets/md/en/writing.md",
+      "href": "page/en/writing",
       "multilingual": true
     }
   ]

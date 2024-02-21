@@ -1,0 +1,2 @@
+- 音乐中的时间箭头——以可区分性以及唯一指向性为锚点重新审视音乐的时间结构
+    -  [网页](/page/cn/arrow_of_time) | [“北方音乐”微信公众号](https://mp.weixin.qq.com/s/WmhugPKnpjrmPaflpb7ebg) | [pdf (XeLatex编译)](/assets/pdf/cn/时间箭头.pdf) | [pdf（北方音乐期刊排版）](/assets/pdf/cn/音乐中的时间箭头.pdf) | [arXiv](https://arxiv.org/abs/2312.17633)
