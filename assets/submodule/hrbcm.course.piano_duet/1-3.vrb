@@ -1,0 +1,34 @@
+\frametitle{}
+
+    \begin{columns}
+        \column{.5\textwidth}
+        自由匹配：
+        \begin{itemize}
+            \item 张德政 \textcolor{red}{配对} 杨翼铭
+            \item 胡昊天 \textcolor{red}{配对} 蔡梓媚
+        \end{itemize}
+        \column{.5\textwidth}
+        盲盒候选人：
+        \begin{itemize}
+            \item 高英杰
+            \item 王子畅
+            \item 蔡豫萱
+            \item 杨运知
+            \item 杨帆
+            \item 卢晓颖
+            \item 李子莹
+        \end{itemize}
+    \end{columns}
+
+    \begin{block}{开盲盒}
+        \begin{lstlisting}[breaklines,upquote,basicstyle=\tiny]
+
+学生 = ['高英杰','王子畅','蔡豫萱','杨运知','杨帆','卢晓颖','李子莹']
+import random
+random.shuffle(学生)
+while 学生:
+    input()
+    学生.pop()
+        \end{lstlisting}
+    \end{block}
+

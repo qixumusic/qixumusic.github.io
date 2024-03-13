@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>4-1</title>
+  <style>
+html {
+line-height: 1.5;
+font-family: Georgia, serif;
+font-size: 20px;
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 1em;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+font-size: 85%;
+margin: 0;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<ul class="incremental">
+<li>主题：学生讲老师听 - 学术研究和幻灯片制作入门</li>
+<li>阅读：
+<ul class="incremental">
+<li>Cambridge Companion to String Quartet</li>
+</ul></li>
+<li>作业：
+<ul class="incremental">
+<li>认领选题题目</li>
+</ul></li>
+</ul>
+<h2 id="大纲">大纲</h2>
+<ol class="incremental" type="1">
+<li><strong>本学期的要点：出师任务，要能自己独立完成项目，从研究到实践。supervised独立思考，并且用多模态来确保全面技能的养成</strong>。任务结构：
+<ul class="incremental">
+<li>2 + 2团队：2人当汇报人（老师），2人当演奏人（学生）
+<ul class="incremental">
+<li>二阶配对：组之间的自由配对</li>
+</ul></li>
+<li>任务组成：
+<ul class="incremental">
+<li>第2-9周每周一组汇报：
+<ul class="incremental">
+<li>PPT汇报（30分钟）：课堂汇报，给班级讲解一首双钢琴曲目，注意曲目 +
+话题的有机结合。讲解一个曲目要从切口小的话题来讨论，否则太泛（为论文写作的查重做准备）
+<ul class="incremental">
+<li>PPT框架（schema，也是为之后的论文做准备）：
+<ul class="incremental">
+<li>曲子纵向所处的上下文，时代背景</li>
+<li>曲子横向所处的上下文，也就是这一曲目在双钢琴领域中的意义</li>
+<li>曲目的分析</li>
+</ul></li>
+</ul></li>
+<li>组织讨论（15分钟）：整理出讨论问题，在班级中讨论</li>
+<li>模拟教学 + 点评（双钢琴大课）（45分钟）</li>
+</ul></li>
+<li>第10周课上提交：
+<ul class="incremental">
+<li>lab report: PPT汇报的论文版本</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>团队合作：2人小组在学术项目中的分工
+<ul class="incremental">
+<li>收集素材 + 幻灯片制作</li>
+<li>收集素材中：外部资料 + 谱面分析</li>
+</ul></li>
+<li>presentation的准备过程schema：
+<ul class="incremental">
+<li>调研</li>
+<li>整理</li>
+<li>幻灯片构思</li>
+<li>幻灯片制作</li>
+<li>内部测试：讲述并且判断主次是否合适</li>
+</ul></li>
+<li>抽签和话题认领。平衡机制：
+<ul class="incremental">
+<li>早present的准备时间少，但是可选的话题更多</li>
+</ul></li>
+<li>presentation分为两个部分：
+<ul class="incremental">
+<li>lecture：讲授。<strong>选题schema：选取（曲目，话题）这个2-tuple并且搭配</strong>
+<ul class="incremental">
+<li>上下文：曲目的时代背景，在作曲家生涯中的位置</li>
+<li>曲目作为双钢琴曲目的特色</li>
+<li>往熟悉的话题靠：如果不了解历史，那么就用曲目的具体分析来试图跟自己独奏学习学到的音乐史或者是曲目上面靠
+<ul class="incremental">
+<li>具体的分析：尤其是<strong>双向关系</strong>，乐谱上的表情记号和双钢琴的媒介如何相互影响，和促进，例如双钢琴如何助力音乐表达，乐谱上的设计如何让双钢琴的配合更加有默契</li>
+<li>比较研究，永远都有话题，因为异同都有得讲
+<ul class="incremental">
+<li>比较研究的纵横：纵就是改编曲跟原版的比较，横就是“借鉴”之间的比较</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>lesson：志愿者弹奏，然后<strong>结合讲授内容</strong>来点评和排练（<strong>训练具体应用音乐知识</strong>）</li>
+</ul></li>
+<li>presentation的选曲也会成为下半学期展演的曲目：<strong>新训练模式，全模态覆盖，熟悉从文化课角度切入学习和理解，然后再上手练琴，也就是反哺，强迫自己脑子先于手</strong></li>
+<li>手把手教学调研：
+<ul class="incremental">
+<li>横向比对：《卡门幻想曲》的多种配器形式
+<ul class="incremental">
+<li><a href="https://www.bilibili.com/video/BV1ug4y197jf">钢琴</a></li>
+<li><a href="https://www.bilibili.com/video/BV1Zz4y1z7EZ">钢琴</a></li>
+<li><a href>小提琴</a></li>
+<li><a href>歌剧原版</a></li>
+<li></li>
+</ul></li>
+<li>上下文比对：通过“浪漫派”来借鉴其他领域，例如文学中的案例，从时代的广义大背景切入。艺术需要的就是这种发散思维：很多思潮的相互影响都是无意识的，所以浪漫派当事人并没有说“我决定开始当浪漫派了”</li>
+</ul></li>
+<li>新课题（作为启发和借鉴来让大家参考如何切入一个话题，研讨会/读书会形式，从tjs课程学到的，一个概念说完之后就要手把手一起做）：双钢琴的姊妹篇，同为合作艺术的室内乐，尤其是string
+quartet，就可以去搜比如cambridge companion
+<ul class="incremental">
+<li>string =&gt;
+piano的这一个过程，例如beethoven英雄交响曲，鳟鱼等等</li>
+<li>双钢琴可以借鉴string quartet，社会化: from chamber to concert
+hall</li>
+<li>不同的艺术形式如何<strong>迁移</strong>：比如舒伯特-李斯特艺术歌曲，独奏跟歌曲版本的区别。这也是</li>
+</ul></li>
+<li>新课题：鉴赏双钢琴有关的program notes</li>
+</ol>
+<h2 id="公告">公告</h2>
+<p>关于发布双钢琴4课程结课及出师任务的通知及管理办法（试行）</p>
+<p>为全面贯彻党的二十大精神，响应学院“致乐崇德”的校训，积极培养中国式现代化所需的专业人才，双钢琴4课程在编订的课程大纲的基础上，结合全面人才发展新形势、新任务、新要求，修订形成《关于发布双钢琴4课程结课及出师任务的通知及管理办法（试行）》。</p>
+<p>现印发给你们，并就有关事项通知如下。</p>
+<p>本学期的出师任务为本课程整个学期的主要项目，围绕着对双钢琴曲目的调研和讲解展开，分为如下几个模块：</p>
+<ul class="incremental">
+<li>汇报：PPT主题发言 + 模拟讲课</li>
+<li>写作：汇报内容复盘及整理</li>
+</ul>
+<p><strong>汇报部分</strong>. 在第3 -
+10周的8周时间里，每周将会有一组负责当周课堂的汇报任务（算入平时成绩，权重待定）。汇报任务由以下部分组成：</p>
+<ol class="incremental" type="1">
+<li>PPT讲座/主题发言（30分钟）：你们组选取一首双钢琴或者四手联弹作品（因此舒伯特D940在选择范围内，但是双钢琴版本的钢琴协奏曲<strong>不可选</strong>），并且选取一个话题/概念当作切入点，来发表一个基于PPT的讲座/主题发言。本通知的附录有一些可供参考的曲目列表，以下是一些可以参考的话题/概念：
+<ul class="incremental">
+<li>以曲目X为锚点，试作双钢琴和其他形式室内乐的对比研究</li>
+<li>从曲目X看双钢琴艺术形式的沿袭与发展</li>
+<li>曲目X借用双钢琴形式所表达的音乐内涵与外延</li>
+<li>从曲目X试论双钢琴形式对变奏曲式的表达与实践</li>
+<li>以曲目X为案例试论Y世纪中Z主义视域下的合作艺术</li>
+</ul></li>
+<li>组织课堂讨论（15分钟）：你们组需要为班级准备5个开放式的讨论问题作为对刚刚PPT讲座的延伸。这些问题需要能够反映刚刚PPT讲座中一些值得持续探讨的问题，尽量追求<strong>立意高，切口小</strong>。以下是一些可以参考的问题：
+<ul class="incremental">
+<li>X曲目跟它的乐队原版相比，运用双钢琴配器的特点，获得了哪些新的音乐表现力？丢失了哪些？</li>
+<li>如果把这一首曲目简化成单钢琴的版本，会遇到哪些挑战？</li>
+<li>这首曲目的双钢琴配器给演奏者带来了哪些挑战或者是便利？</li>
+<li>这首曲目利用双钢琴让我们重新认识到了哪些钢琴演奏的特点？尤其是在独奏中容易疏忽的特点？</li>
+</ul></li>
+<li>模拟讲课（30分钟）：结合PPT的内容，你们需要跟另外一个小组合作，请他们客串当“钢琴家”，视奏PPT讲座的曲目。你们可以利用他们的视奏来举例说明刚刚PPT讲座中的一些论点，因为有了视奏，所以你们可以更加深挖细节。也就是说，不要只是泛泛而谈的点评对方的演奏，而是需要将自己的点评和刚刚PPT讲座的主题结合起来</li>
+</ol>
+<p><strong>写作部分</strong>.
+在第10周课上，我将会收集你们的写作项目（算入期中考试分数，权重待定）。写作项目类似于理工科的实验报告（lab
+report），用论文的形式来记录自己PPT讲座的内容。所以，在内容方面写作项目跟汇报部分是相同的，但是你需要用书面文字来完成，在这一过程中你需要尤其注意行文的结构性，用词避免口语化，论点论据的完整表述等等“写作课”上需要注意的要求。<strong>写作部分的项目需要以个人（而不是小组）为单位独立完成：每个人都需要提交一份自己写的完整论文</strong>。论文的硬性要求为：1200字及以上。除此之外，表述的清晰，结构的规整，行文的工整，论述的逻辑性等都是考核的重要非量化指标。</p>
+<p><strong>汇报顺序</strong>. 汇报的顺序由微信群抽签决定，规则如下：</p>
+<ol class="incremental" type="1">
+<li>需要从n组人中选取幸运观众，骰子最大点数为6，取n和6的最小公倍数<span class="math inline"><em>φ</em></span>。抛骰子<span class="math inline">$\frac{\varphi}{6}$</span>次，并做点数求和，得到点数<span class="math inline"><em>Σ</em></span>。做取模运算<span class="math inline">(<em>Σ</em> mod  <em>n</em>) + 1</span>，即为抽中的组的编号。班级目前的组别编号分为别：
+<ul class="incremental">
+<li>编号1：贺 龙</li>
+<li>编号2：周 龙</li>
+<li>编号3：陈 张语某</li>
+<li>编号4：药 梁</li>
+<li>编号5：陈 胡</li>
+<li>编号6：徐 葛</li>
+<li>编号7：陈 张慧某</li>
+<li>编号8：柯 翟</li>
+</ul></li>
+<li>从初始条件即剩8组人开始，每次抽签抽到的幸运观众分别得到第3到第10周的汇报序号，并退出抽签，直到每一组都抽到了自己的序号（注意，编号跟序号不是同一个概念）。算法展开为：
+<ul class="incremental">
+<li>确定第3周汇报人选：当剩余组数 n = 8，<span class="math inline"><em>φ</em> = 24</span>，需要抛骰子<span class="math inline">4</span>次</li>
+<li>确定第4周汇报人选：当剩余组数 n = 7，<span class="math inline"><em>φ</em> = 42</span>，需要抛骰子<span class="math inline">7</span>次</li>
+<li>确定第5周汇报人选：当剩余组数 n = 6，<span class="math inline"><em>φ</em> = 6</span>，需要抛骰子<span class="math inline">1</span>次</li>
+<li>确定第6周汇报人选：当剩余组数 n = 5，<span class="math inline"><em>φ</em> = 30</span>，需要抛骰子<span class="math inline">5</span>次</li>
+<li>确定第7周汇报人选：当剩余组数 n = 4，<span class="math inline"><em>φ</em> = 24</span>，需要抛骰子<span class="math inline">4</span>次</li>
+<li>确定第8周汇报人选：当剩余组数 n = 3，<span class="math inline"><em>φ</em> = 6</span>，需要抛骰子<span class="math inline">1</span>次</li>
+<li>确定第9周汇报人选：当剩余组数 n = 2，<span class="math inline"><em>φ</em> = 6</span>，需要抛骰子<span class="math inline">1</span>次</li>
+<li>确定第10周汇报人选：当剩余组数 n = 1，达到边界条件（terminating
+condition/base case/boundary condition），不需要抛骰子</li>
+</ul></li>
+</ol>
+<p>在线上确定汇报顺序之后，我们会在第二周的课上确定每一组的“钢琴家”搭档组。</p>
+<p><strong>附录</strong>. 供参考的曲目列表</p>
+<ol class="incremental" type="1">
+<li>J.C.巴赫——G大调双钢琴奏鸣曲</li>
+<li>J.C.巴赫——Op. 15 No. 5</li>
+<li>勃拉姆斯——双钢琴奏鸣曲 f小调Op.34</li>
+<li>勃拉姆斯——海顿主题变奏曲 Op. 56b</li>
+<li>卢托斯拉夫斯基——帕格尼尼主题变奏曲</li>
+<li>吕其明——红旗颂</li>
+<li>巴赫/Rheinberger——哥德堡变奏曲</li>
+<li>拉威尔——圆舞曲</li>
+<li>拉赫玛尼诺夫——双钢琴组曲</li>
+<li>维瓦尔第——泪如雨下</li>
+<li>舒曼——Op. 46</li>
+<li>莫扎特——双钢琴协奏曲Kv.365 降E大调</li>
+<li>莫扎特——双钢琴奏鸣曲 D大调 K.448</li>
+<li>莫扎特——双钢琴奏鸣曲K.283 G大调</li>
+<li>莫扎特——双钢琴奏鸣曲K.521 C大调</li>
+<li>莫扎特——回旋曲 D大调 K.382</li>
+<li>莫扎特——小广板与快板 降E大调K.deest</li>
+<li>莫扎特——赋格 c小调 K.426</li>
+<li>莫扎特/Reger——双钢琴奏鸣曲 K.331, Op. 132a</li>
+<li>莫扎特/格里格——双钢琴奏鸣曲 K.475</li>
+<li>莫扎特/格里格——双钢琴奏鸣曲 K.545</li>
+<li>阿连斯基——第二双钢琴组曲</li>
+</ol>
+</body>
+</html>

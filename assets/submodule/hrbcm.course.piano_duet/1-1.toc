@@ -1,0 +1,3 @@
+\beamer@sectionintoc {1}{为什么：双钢琴的目的}{3}{0}{1}
+\beamer@sectionintoc {2}{什么：双钢琴形式的特点}{6}{0}{2}
+\beamer@sectionintoc {3}{展望：双钢琴的培养目标}{9}{0}{3}
