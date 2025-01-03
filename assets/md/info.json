@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "title": "bio_extended",
+      "path": "assets/md/cn/bio_extended.md",
+      "href": "page/cn/bio_extended",
+      "multilingual": false
+    },
+    {
+      "title": "bio_full",
+      "path": "assets/md/cn/bio_full.md",
+      "href": "page/cn/bio_full",
+      "multilingual": true
+    },
+    {
+      "title": "bio_short",
+      "path": "assets/md/cn/bio_short.md",
+      "href": "page/cn/bio_short",
+      "multilingual": true
+    },
+    {
+      "title": "contact",
+      "path": "assets/md/cn/contact.md",
+      "href": "page/cn/contact",
+      "multilingual": true
+    },
+    {
+      "title": "intro",
+      "path": "assets/md/cn/intro.md",
+      "href": "page/cn/intro",
+      "multilingual": true
+    },
+    {
+      "title": "site",
+      "path": "assets/md/cn/site.md",
+      "href": "page/cn/site",
+      "multilingual": true
+    },
+    {
+      "title": "titles",
+      "path": "assets/md/cn/titles.md",
+      "href": "page/cn/titles",
+      "multilingual": true
+    },
+    {
+      "title": "writing",
+      "path": "assets/md/cn/writing.md",
+      "href": "page/cn/writing",
+      "multilingual": true
+    },
+    {
+      "title": "bio_full",
+      "path": "assets/md/en/bio_full.md",
+      "href": "page/en/bio_full",
+      "multilingual": true
+    },
+    {
+      "title": "bio_short",
+      "path": "assets/md/en/bio_short.md",
+      "href": "page/en/bio_short",
+      "multilingual": true
+    },
+    {
+      "title": "contact",
+      "path": "assets/md/en/contact.md",
+      "href": "page/en/contact",
+      "multilingual": true
+    },
+    {
+      "title": "intro",
+      "path": "assets/md/en/intro.md",
+      "href": "page/en/intro",
+      "multilingual": true
+    },
+    {
+      "title": "site",
+      "path": "assets/md/en/site.md",
+      "href": "page/en/site",
+      "multilingual": true
+    },
+    {
+      "title": "titles",
+      "path": "assets/md/en/titles.md",
+      "href": "page/en/titles",
+      "multilingual": true
+    },
+    {
+      "title": "writing",
+      "path": "assets/md/en/writing.md",
+      "href": "page/en/writing",
+      "multilingual": true
+    }
+  ]
+}

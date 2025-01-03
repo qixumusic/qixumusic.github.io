@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "title": "arrow_of_time",
+      "path": "assets/html/cn/arrow_of_time.html",
+      "href": "page/cn/arrow_of_time",
+      "multilingual": false
+    },
+    {
+      "title": "cv",
+      "path": "assets/html/cn/cv.html",
+      "href": "page/cn/cv",
+      "multilingual": true
+    },
+    {
+      "title": "cv",
+      "path": "assets/html/en/cv.html",
+      "href": "page/en/cv",
+      "multilingual": true
+    },
+    {
+      "title": "dissertation",
+      "path": "assets/html/en/dissertation.html",
+      "href": "page/en/dissertation",
+      "multilingual": false
+    }
+  ]
+}

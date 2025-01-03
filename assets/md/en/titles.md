@@ -1,0 +1,5 @@
+- Concert-pianist | Artist-scholar | Inter-disciplinary Researcher
+- Piano faculty @ Harbin Conservatory of Music (HRBCM)
+- Theory faculty @ The Tianjin Juilliard School (TJS)
+- Visiting professor @ Shenzhen Art School (SZAS)
+- The Juilliard School (DMA '22) | Columbia University (BA '16)

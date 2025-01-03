@@ -1,0 +1,2 @@
+- The Musical Arrow of Time - The Role of Temporal Asymmetry in Music and Its Organicist Implications
+    - [html](/page/en/dissertation) | [pdf](/assets/pdf/en/dissertation.pdf) | [arXiv](https://arxiv.org/abs/2206.01305)
