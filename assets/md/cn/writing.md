@@ -1,2 +1,6 @@
-- 音乐中的时间箭头——以可区分性以及唯一指向性为锚点重新审视音乐的时间结构
-    -  [网页](/page/cn/arrow_of_time) | [“北方音乐”微信公众号](https://mp.weixin.qq.com/s/WmhugPKnpjrmPaflpb7ebg) | [pdf (XeLatex编译)](/assets/pdf/cn/时间箭头.pdf) | [pdf（北方音乐期刊排版）](/assets/pdf/cn/音乐中的时间箭头.pdf) | [arXiv](https://arxiv.org/abs/2312.17633)
+- 2024-11-24.主题发言：《文理兼修：以钢琴演奏与教学为锚点探索理论与实践学科的多模态深度融合》
+    - [slide](/assets/pdf/cn/2024-11-24.slide.pdf) | [paper](/assets/pdf/cn/2024-11-24.paper.pdf)
+- 2023-10-04.论文：《音乐中的时间箭头——以可区分性以及唯一指向性为锚点重新审视音乐的时间结构》
+    -  [网页](/page/cn/arrow_of_time) | [“北方音乐”微信公众号](https://mp.weixin.qq.com/s/WmhugPKnpjrmPaflpb7ebg) | [pdf](/assets/pdf/cn/时间箭头.pdf) | [pdf（北方音乐期刊排版）](/assets/pdf/cn/音乐中的时间箭头.pdf) | [arXiv](https://arxiv.org/abs/2312.17633)
+- 2022-05.博士毕业论文：《Musical Arrow of Time - The Role of Temporal Asymmetry in Music and Its Organicist Implications》
+    - [网页](/page/en/dissertation) | [pdf](/assets/pdf/en/dissertation.pdf) | [arXiv](https://arxiv.org/abs/2206.01305)
