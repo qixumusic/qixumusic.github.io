@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1735971307368,
+  "timestamp": 1735993243866,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -31,6 +31,14 @@
         "ignoreVary": true
       },
       "urls": [
+        "/assets/files/徐起.cv.docx",
+        "/assets/files/徐起.cv.pdf",
+        "/assets/files/徐起.简历.加长版.docx",
+        "/assets/files/徐起.简历.加长版.pdf",
+        "/assets/files/徐起.简历.完整版.docx",
+        "/assets/files/徐起.简历.完整版.pdf",
+        "/assets/files/徐起.简历.简短版.docx",
+        "/assets/files/徐起.简历.简短版.pdf",
         "/assets/html/cn/arrow_of_time.html",
         "/assets/html/cn/cv.html",
         "/assets/html/en/cv.html",
@@ -231,8 +239,16 @@
   "hashTable": {
     "/217.js": "44514b55ebb5ed08610008a1962b4687c0eb8196",
     "/679.js": "94035ecb90f142470527ff9b609e41754720a809",
+    "/assets/files/徐起.cv.docx": "cd55ae0793e94975de0ee9a8358adfe1630f67c3",
+    "/assets/files/徐起.cv.pdf": "ab296efe6a8f2c043b0c6a77596250a93992ca13",
+    "/assets/files/徐起.简历.加长版.docx": "00cbcca4b9ed0e19b318341986d49de98505af78",
+    "/assets/files/徐起.简历.加长版.pdf": "db464a227e6d74c717f59e6ef14ed258dd919b98",
+    "/assets/files/徐起.简历.完整版.docx": "aa1dc2a5055e368e2b7b55f61639f9615a1d924b",
+    "/assets/files/徐起.简历.完整版.pdf": "1360a9d81f8394bc79f6c89ce4ce11661f4c4ef6",
+    "/assets/files/徐起.简历.简短版.docx": "fbd82345dd93edd3d031f1cc6c0efbd2670d8875",
+    "/assets/files/徐起.简历.简短版.pdf": "a97f4d5e42e6a40a1a2433524e105e11abadc796",
     "/assets/html/cn/arrow_of_time.html": "bb1e67511c1f6863608b9b50dbf53395c45a728a",
-    "/assets/html/cn/cv.html": "732ee55a1f4257af1f678eea56ae85fd24326893",
+    "/assets/html/cn/cv.html": "6b171cb8d5ee3d7c7d5e69d22f6643eec9159ed8",
     "/assets/html/en/cv.html": "da1ba8ab9135a4ba5b207b7036dcd44cf3cd9dad",
     "/assets/html/en/dissertation.html": "755080ab5d30248f0feeb5f1b47999b5bf2a6a62",
     "/assets/html/info.json": "ec14d483fd1a3c6afd85074365df3ba5d5c34286",
@@ -412,7 +428,7 @@
     "/assets/pdf/cn/bio_extended.pdf": "db464a227e6d74c717f59e6ef14ed258dd919b98",
     "/assets/pdf/cn/bio_full.pdf": "1360a9d81f8394bc79f6c89ce4ce11661f4c4ef6",
     "/assets/pdf/cn/bio_short.pdf": "a97f4d5e42e6a40a1a2433524e105e11abadc796",
-    "/assets/pdf/cn/cv.pdf": "ed0a49f5811b4be4ce876ac751d524ca8cf17956",
+    "/assets/pdf/cn/cv.pdf": "ab296efe6a8f2c043b0c6a77596250a93992ca13",
     "/assets/pdf/cn/时间箭头.pdf": "a2a78fb87c60a7beefae8870e2ad001eb9ff7af3",
     "/assets/pdf/cn/音乐中的时间箭头.pdf": "37042cc2ef46d5401b314063e79068376023ebed",
     "/assets/pdf/en/bio_full.pdf": "1ce67c39109278c47bf56b2430128bb68dc70f73",
@@ -423,7 +439,7 @@
     "/assets/submodule/hrbcm.course.piano_duet/4.html": "f2751b3fce7dabbe532ca88fe3f1923e3295676c",
     "/favicon.ico": "afb20598124f18d4ccc3aa47cff8629c5a3d1791",
     "/index.html": "edb0c44d70acdea39ec7ef973f2ef20e8226e188",
-    "/main.js": "f16d4f42136fb4ffcd4a39b1e7a6b664d35a7a74",
+    "/main.js": "51286469096d9a6965d5aedea666f2d66c9a1cde",
     "/manifest.webmanifest": "9fff0e0b4bf18692911fc94981f2c01f4e2e7985",
     "/material-icons.woff": "a1840fdc9b67afc952f064ab6e2b05188ba1c78a",
     "/material-icons.woff2": "12ec79ca327978ed31b4a661fd0f6a89721333a9",
