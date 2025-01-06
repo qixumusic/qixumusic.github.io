@@ -35,7 +35,7 @@ Pages](https://pages.github.com/).
 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/31cd0ae2-d6fa-4211-a52d-d5155467f90e/deploy-status)
 
-<https://qixu.netlify.com>
+<https://qixu.netlify.app>
 
 Sponsored by [Netlify](https://www.netlify.com/).
 
