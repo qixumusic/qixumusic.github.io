@@ -44,6 +44,8 @@ title: 有关此网站
 
 ### Firebase
 
+[![Deploy to Live Channel](https://github.com/qixumusic/qixumusic.github.io/actions/workflows/firebase_deploy.yml/badge.svg?branch=master)](https://github.com/qixumusic/qixumusic.github.io/actions/workflows/firebase_deploy.yml)
+
 <https://qixumusic.web.app>
 
 由[Firebase](https://firebase.google.com)托管。
