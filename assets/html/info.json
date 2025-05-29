@@ -13,6 +13,12 @@
       "multilingual": true
     },
     {
+      "title": "organicism",
+      "path": "assets/html/cn/organicism.html",
+      "href": "page/cn/organicism",
+      "multilingual": false
+    },
+    {
       "title": "cv",
       "path": "assets/html/en/cv.html",
       "href": "page/en/cv",
