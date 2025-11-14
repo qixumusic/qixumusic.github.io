@@ -373,6 +373,36 @@
       }
     },
     {
+      "raw_html": "<div class=\"item\"><a href=\"assets/img/gallery/original/ZZ9A2006.jpg\" data-pswp-src=\"assets/img/gallery/original/ZZ9A2006.jpg\" data-pswp-width=\"5001\" data-pswp-height=\"3334\"><img loading=\"lazy\" src=\"assets/img/gallery/thumbnail/thumb_ZZ9A2006.jpg\"></a></div>",
+      "thumbnail_url": "assets/img/gallery/thumbnail/thumb_ZZ9A2006.jpg",
+      "original_url": "assets/img/gallery/original/ZZ9A2006.jpg",
+      "dimension": {
+        "height": 3334,
+        "width": 5001,
+        "type": "jpg"
+      }
+    },
+    {
+      "raw_html": "<div class=\"item\"><a href=\"assets/img/gallery/original/ZZ9A2041.jpg\" data-pswp-src=\"assets/img/gallery/original/ZZ9A2041.jpg\" data-pswp-width=\"5218\" data-pswp-height=\"3479\"><img loading=\"lazy\" src=\"assets/img/gallery/thumbnail/thumb_ZZ9A2041.jpg\"></a></div>",
+      "thumbnail_url": "assets/img/gallery/thumbnail/thumb_ZZ9A2041.jpg",
+      "original_url": "assets/img/gallery/original/ZZ9A2041.jpg",
+      "dimension": {
+        "height": 3479,
+        "width": 5218,
+        "type": "jpg"
+      }
+    },
+    {
+      "raw_html": "<div class=\"item\"><a href=\"assets/img/gallery/original/ZZ9A2047.jpg\" data-pswp-src=\"assets/img/gallery/original/ZZ9A2047.jpg\" data-pswp-width=\"4903\" data-pswp-height=\"3269\"><img loading=\"lazy\" src=\"assets/img/gallery/thumbnail/thumb_ZZ9A2047.jpg\"></a></div>",
+      "thumbnail_url": "assets/img/gallery/thumbnail/thumb_ZZ9A2047.jpg",
+      "original_url": "assets/img/gallery/original/ZZ9A2047.jpg",
+      "dimension": {
+        "height": 3269,
+        "width": 4903,
+        "type": "jpg"
+      }
+    },
+    {
       "raw_html": "<div class=\"item\"><a href=\"assets/img/gallery/original/cover_16737328525_o.jpg\" data-pswp-src=\"assets/img/gallery/original/cover_16737328525_o.jpg\" data-pswp-width=\"3089\" data-pswp-height=\"3089\"><img loading=\"lazy\" src=\"assets/img/gallery/thumbnail/thumb_cover_16737328525_o.jpg\"></a></div>",
       "thumbnail_url": "assets/img/gallery/thumbnail/thumb_cover_16737328525_o.jpg",
       "original_url": "assets/img/gallery/original/cover_16737328525_o.jpg",
