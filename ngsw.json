@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1763086475736,
+  "timestamp": 1763087700569,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -595,7 +595,7 @@
     "/assets/submodule/hrbcm.course.piano_duet/4.html": "f2751b3fce7dabbe532ca88fe3f1923e3295676c",
     "/favicon.ico": "afb20598124f18d4ccc3aa47cff8629c5a3d1791",
     "/index.html": "edb0c44d70acdea39ec7ef973f2ef20e8226e188",
-    "/main.js": "89ef3be6af827a00ab49ad2c4783eea802290891",
+    "/main.js": "53a6342a5a56e8c1a4ede1361a447744c66c2d40",
     "/manifest.webmanifest": "9fff0e0b4bf18692911fc94981f2c01f4e2e7985",
     "/material-icons.woff": "a1840fdc9b67afc952f064ab6e2b05188ba1c78a",
     "/material-icons.woff2": "12ec79ca327978ed31b4a661fd0f6a89721333a9",
