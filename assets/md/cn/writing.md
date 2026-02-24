@@ -1,5 +1,5 @@
 - 2025-03-20.论文：《从隐喻到本体：跨学科视域下音乐结构的生命体特征 —— 基于生长性、目的性、整体性与运动性的有机论再审视》
-    - [网页](/page/cn/organicism) | [pdf](/assets/pdf/cn/徐起.有机论.pdf) | [docx](/assets/files/徐起.有机论.docx) | [pdf（北方音乐期刊排版）](/assets/pdf/cn/徐起.有机论.北方音乐.pdf)
+    - [网页](/page/cn/organicism) | [pdf](/assets/pdf/cn/徐起.有机论.pdf) | [docx](/assets/files/徐起.有机论.docx) | [pdf（北方音乐期刊排版）](/assets/pdf/cn/徐起.有机论.北方音乐.pdf) | [“北方音乐”微信公众号](https://mp.weixin.qq.com/s/K5y4_RUnwhihwQoeEIGpXw)
 - 2024-11-24.主题发言：《文理兼修：以钢琴演奏与教学为锚点探索理论与实践学科的多模态深度融合》
     - [slide](/assets/pdf/cn/2024-11-24.slide.pdf) | [paper](/assets/pdf/cn/2024-11-24.paper.pdf)
 - 2023-10-04.论文：《音乐中的时间箭头——以可区分性以及唯一指向性为锚点重新审视音乐的时间结构》
