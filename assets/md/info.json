@@ -1,6 +1,18 @@
 {
   "data": [
     {
+      "title": "2025穿山问道",
+      "path": "assets/md/cn/2025穿山问道.md",
+      "href": "page/cn/2025穿山问道",
+      "multilingual": false
+    },
+    {
+      "title": "2026师者如光",
+      "path": "assets/md/cn/2026师者如光.md",
+      "href": "page/cn/2026师者如光",
+      "multilingual": false
+    },
+    {
       "title": "bio_extended",
       "path": "assets/md/cn/bio_extended.md",
       "href": "page/cn/bio_extended",
