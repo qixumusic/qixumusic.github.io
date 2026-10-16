@@ -31,6 +31,12 @@
       "multilingual": false
     },
     {
+      "title": "2026明斯克",
+      "path": "assets/md/cn/2026明斯克.md",
+      "href": "page/cn/2026明斯克",
+      "multilingual": false
+    },
+    {
       "title": "bio_extended",
       "path": "assets/md/cn/bio_extended.md",
       "href": "page/cn/bio_extended",
